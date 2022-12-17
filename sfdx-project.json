@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "Mapprio",
+      "default": true
+    }
+  ],
+  "name": "Mapprio",
+  "namespace": "Mapprio",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0"
+}
