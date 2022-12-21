@@ -2,6 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Mapprio</fullName>
     <types>
+        <members>TargetManager</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>MapprioAnswerCloudResponsesForAccount__c.Account__c</members>
         <members>MapprioAnswerCloudResponsesForAccount__c.Answer__c</members>
         <members>MapprioAnswerCloudResponsesForAccount__c.Count__c</members>
