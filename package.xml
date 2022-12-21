@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Mapprio</fullName>
     <types>
         <members>MapprioAnswerCloudResponsesForAccount__c.Account__c</members>
         <members>MapprioAnswerCloudResponsesForAccount__c.Answer__c</members>
         <members>MapprioAnswerCloudResponsesForAccount__c.Count__c</members>
-        <members>MapprioAnswerCloudResponsesForAccount__c.QuestionScale__c</members>
-        <members>MapprioAnswerCloudResponsesForAccount__c.QuestionSource__c</members>
-        <members>MapprioAnswerCloudResponsesForAccount__c.ResponseText__c</members>
+        <members
+    >MapprioAnswerCloudResponsesForAccount__c.QuestionScale__c</members>
+        <members
+    >MapprioAnswerCloudResponsesForAccount__c.QuestionSource__c</members>
+        <members
+    >MapprioAnswerCloudResponsesForAccount__c.ResponseText__c</members>
         <members>MapprioAnswer__c.MapprioId__c</members>
         <members>MapprioAnswer__c.MapprioQuestion__c</members>
         <members>MapprioAnswer__c.Text__c</members>
@@ -63,17 +66,27 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>MapprioAnswerCloudResponsesForAccount__c-AnswerCloud Responses For Account Layout</members>
+        <members
+    >MapprioAnswerCloudResponsesForAccount__c-AnswerCloud Responses For Account Layout</members>
         <members>MapprioAnswer__c-Mapprio Answer Layout</members>
-        <members>MapprioCheckboxResponsesForAccount__c-Mapprio Checkbox Responses for Account Layout</members>
+        <members
+    >MapprioCheckboxResponsesForAccount__c-Mapprio Checkbox Responses for Account Layout</members>
         <members>MapprioNPSForAccount__c-Account NPS Layout</members>
         <members>MapprioQuestion__c-Mapprio Question Layout</members>
-        <members>MapprioRadioResponsesForAccount__c-Mapprio Radio Responses For Account Layout</members>
-        <members>MapprioResponseSession__c-Mapprio Response Session Layout</members>
+        <members
+    >MapprioRadioResponsesForAccount__c-Mapprio Radio Responses For Account Layout</members>
+        <members
+    >MapprioResponseSession__c-Mapprio Response Session Layout</members>
         <members>MapprioResponse__c-Mapprio Response Layout</members>
-        <members>MapprioSmartSurveyTarget__c-Mapprio Smart Survey Target Layout</members>
+        <members
+    >MapprioSmartSurveyTarget__c-Mapprio Smart Survey Target Layout</members>
         <members>MapprioSmartSurvey__c-Mapprio Smart Survey Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Standard</members>
+        <name>Profile</name>
     </types>
     <version>56.0</version>
 </Package>
