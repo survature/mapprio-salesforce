@@ -178,6 +178,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MapprioSmartSurveyTarget__c.Memo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MapprioSmartSurvey__c.Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
