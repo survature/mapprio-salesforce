@@ -189,6 +189,9 @@
         <layout>MapprioAnswer__c-Mapprio Answer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>MapprioApi__c-Mapprio API Accessor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout
     >MapprioCheckboxResponsesForAccount__c-Mapprio Checkbox Responses for Account Layout</layout>
     </layoutAssignments>
@@ -232,6 +235,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>MapprioAnswer__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MapprioApi__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
