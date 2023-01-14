@@ -2,10 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Mapprio</fullName>
     <types>
-        <members>TargetManager</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
         <members>MapprioAnswerCloudResponsesForAccount__c.Account__c</members>
         <members>MapprioAnswerCloudResponsesForAccount__c.Answer__c</members>
         <members>MapprioAnswerCloudResponsesForAccount__c.Count__c</members>
@@ -35,10 +31,9 @@
         <members>MapprioRadioResponsesForAccount__c.Answer__c</members>
         <members>MapprioRadioResponsesForAccount__c.Count__c</members>
         <members>MapprioRadioResponsesForAccount__c.Question__c</members>
-        <members>MapprioResponseSession__c.Completed__c</members>
+        <members>MapprioResponseSession__c.CompletionDateTime__c</members>
         <members>MapprioResponseSession__c.MapprioId__c</members>
         <members>MapprioResponseSession__c.MapprioSmartSurveyTarget__c</members>
-        <members>MapprioResponseSession__c.Submitted__c</members>
         <members>MapprioResponse__c.Answer__c</members>
         <members>MapprioResponse__c.MapprioId__c</members>
         <members>MapprioResponse__c.QuestionScale__c</members>
