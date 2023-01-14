@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>support@survature.com</contactEmail>
+    <label>Mapprio</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate
+    >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</certificate>
+        <consumerKey
+    >3MVG9EustosuQLHRe4_RwtbR7onkRRyhErhCyeV15qSg5_3SurKulJLGQfUTETuwshqD9UJw0PXMiOpElhct7</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>Standard User</profileName>
+</ConnectedApp>
