@@ -3,63 +3,17 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioAnswerCloudResponsesForAccount__c.Account__c</field>
+        <field>Campaign.MapprioSmartSurveyDescription__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioAnswerCloudResponsesForAccount__c.Answer__c</field>
+        <field>Campaign.MapprioSmartSurveyId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioAnswerCloudResponsesForAccount__c.Count__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioAnswerCloudResponsesForAccount__c.QuestionScale__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field
-    >MapprioAnswerCloudResponsesForAccount__c.QuestionSource__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioAnswerCloudResponsesForAccount__c.ResponseText__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioAnswer__c.MapprioQuestion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioAnswer__c.Text__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioCheckboxResponsesForAccount__c.Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioCheckboxResponsesForAccount__c.Answer__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioCheckboxResponsesForAccount__c.Count__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioCheckboxResponsesForAccount__c.Question__c</field>
+        <field>Campaign.MapprioSmartSurveyPreviewURL__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -70,6 +24,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MapprioNPSForAccount__c.Detractors__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MapprioNPSForAccount__c.MapprioSmartSurveyName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -89,46 +48,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioQuestion__c.MapprioSmartSurvey__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioQuestion__c.Text__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioRadioResponsesForAccount__c.Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioRadioResponsesForAccount__c.Answer__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioRadioResponsesForAccount__c.Count__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioRadioResponsesForAccount__c.Question__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioResponseSession__c.CompletionDateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioResponseSession__c.MapprioSmartSurveyTarget__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>MapprioResponse__c.Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -144,6 +63,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MapprioResponse__c.FormLabel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MapprioResponse__c.MapprioSmartSurveyName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MapprioResponse__c.QuestionScale__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -154,17 +83,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioResponse__c.Session__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>MapprioResponse__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioResponse__c.Value__c</field>
+        <field>MapprioSmartSurveyTarget__c.Campaign__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -174,7 +98,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MapprioSmartSurveyTarget__c.MapprioSurvey__c</field>
+        <field>MapprioSmartSurveyTarget__c.MapprioSmartSurveyName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -182,76 +106,18 @@
         <field>MapprioSmartSurveyTarget__c.Memo__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MapprioSmartSurvey__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <layoutAssignments>
-        <layout
-    >MapprioAnswerCloudResponsesForAccount__c-AnswerCloud Responses For Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MapprioAnswer__c-Mapprio Answer Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MapprioApi__c-Mapprio API Accessor Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout
-    >MapprioCheckboxResponsesForAccount__c-Mapprio Checkbox Responses for Account Layout</layout>
+        <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>MapprioNPSForAccount__c-Account NPS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MapprioQuestion__c-Mapprio Question Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout
-    >MapprioRadioResponsesForAccount__c-Mapprio Radio Responses For Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout
-    >MapprioResponseSession__c-Mapprio Response Session Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>MapprioResponse__c-Mapprio Response Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout
-    >MapprioSmartSurveyTarget__c-Mapprio Smart Survey Target Layout</layout>
+        <layout>MapprioSmartSurveyTarget__c-Mapprio Smart Survey Target Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>MapprioSmartSurvey__c-Mapprio Smart Survey Layout</layout>
-    </layoutAssignments>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioAnswerCloudResponsesForAccount__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioAnswer__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioCheckboxResponsesForAccount__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -259,33 +125,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>MapprioNPSForAccount__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioQuestion__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioRadioResponsesForAccount__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioResponseSession__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -306,46 +145,13 @@
         <object>MapprioSmartSurveyTarget__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>MapprioSmartSurvey__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <tabVisibilities>
-        <tab>MapprioAnswerCloudResponsesForAccount__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MapprioAnswer__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <tabVisibilities>
         <tab>MapprioApi__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>MapprioCheckboxResponsesForAccount__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>MapprioNPSForAccount__c</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MapprioQuestion__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MapprioRadioResponsesForAccount__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MapprioResponseSession__c</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>MapprioResponse__c</tab>
@@ -354,10 +160,6 @@
     <tabVisibilities>
         <tab>MapprioSmartSurveyTarget__c</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MapprioSmartSurvey__c</tab>
-        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>

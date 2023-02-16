@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Contact__c</fullName>
+    <fullName>Campaign__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Contact</label>
-    <referenceTo>Contact</referenceTo>
-    <relationshipLabel>Mapprio Responses</relationshipLabel>
-    <relationshipName>Mapprio_Responses</relationshipName>
+    <label>Campaign</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Mapprio Smart Survey Targets</relationshipLabel>
+    <relationshipName>Mapprio_Smart_Survey_Targets</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
