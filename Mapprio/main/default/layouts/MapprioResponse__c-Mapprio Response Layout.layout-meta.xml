@@ -43,6 +43,10 @@
                 <behavior>Edit</behavior>
                 <field>FormLabel__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Campaign__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

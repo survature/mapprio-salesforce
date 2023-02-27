@@ -23,6 +23,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MapprioNPSForAccount__c.Campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MapprioNPSForAccount__c.Detractors__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -54,6 +59,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MapprioResponse__c.Answer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MapprioResponse__c.Campaign__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
